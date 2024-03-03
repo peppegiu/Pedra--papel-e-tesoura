@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, paper and scissors</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Poppins:wght@500&family=Sixtyfour&display=swap" rel="stylesheet">
+
+    <script src="./src/javascript/script.js"></script>
+
+</head>
+<body>
+    <main>
+        <div class="title">
+            <h1>Rock, paper and scissors</h1>
+        </div>
+
+        
+        <section class="points">
+            <div class="points-1">
+                <h2>Player = </h2> <p id="player-points">0</p>  
+            </div>
+
+            <div class="points-2">
+                <h2>Computer = </h2> <p id="computer-points">0</p>
+            </div>
+        </section>
+
+        <section class="images">
+            <div class="user">
+                <h3>Player choice: </h3> <h4 id="player_choice">
+
+                </h4>  
+            </div>
+
+            <div class="PC">
+                <h3>Computer choice: </h3> <h4 id="computer_choice">
+
+                </h4> 
+            </div>
+
+            <h4 id="result"></h4>
+        </section>
+
+        <section class="buttons">
+            <button id="roc" onclick="rock()" class="weapon"> <img src="./src/images/rock.png" alt="rock"></button>
+            <button id="pape" onclick="paper()" class="weapon"> <img src="./src/images/paper.png" alt="paper"></button>
+            <button id="scissor" onclick="scissors()" class="weapon"> <img src="./src/images/scissors.png" alt="scissors"></button>
+
+        </section>
+
+
+
+    </main>
+
+</body>
+</html>

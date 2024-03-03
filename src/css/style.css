@@ -1,0 +1,69 @@
+.title {
+    display: flex;
+    justify-content: center;
+
+}
+
+body {
+    background-color: rgb(0, 125, 125);
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.points-1, .points-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    margin: auto;
+    padding-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    align-self: center;
+    margin: auto;
+    justify-content: space-around;
+    width: 70px;
+    height: 100px;
+
+}
+
+img {
+    width: 100px;
+    justify-content: center;
+
+}
+
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.user, .PC, h4 {
+    display: flex;
+    justify-content: center ;
+    margin-left: 20px;
+
+}
+
+.title h1, h2, p, h3, h4 {
+    font-family: Sixtyfour;
+}
+
+h3 {
+    color: red;
+}
+
+h4 {
+    color: yellow;
+}
